@@ -11,7 +11,7 @@ namespace Softcore.Patches
     {
 #pragma warning disable CS0618 // Type or member is obsolete
         [HarmonyPrefix]
-        public static bool Prefix(GameScript __instance, ref int[] ___combatChips, ref int ___deathCounter, ref int ___readyPlayers, ref bool ___savingGame, ref int ___droidCount, ref bool ___menuDeathing)
+        public static bool Prefix(GameScript __instance, ref int ___deathCounter, ref int ___readyPlayers, ref bool ___savingGame, ref int ___droidCount, ref bool ___menuDeathing)
         {
             MonoBehaviour.print("Retry() (Patched)");
             GameScript.poison = 0;

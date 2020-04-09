@@ -1,25 +1,13 @@
-using UnityEngine;
-using UModFramework.API;
+using GadgetCore.API;
 
 namespace Softcore
 {
-    class Softcore
+    [Gadget("Softcore")]
+    public class Softcore : Gadget
     {
-        internal static void Log(string text, bool clean = false)
-        {
-            using (UMFLog log = new UMFLog()) log.Log(text, clean);
-        }
-
-        [UMFConfig]
-        public static void LoadConfig()
-        {
-            SoftcoreConfig.Load();
-        }
-
-		[UMFHarmony(2)] //Set this to the number of harmony patches in your mod.
-        public static void Start()
+        protected override void Initialize()
 		{
-			Log("Softcore v" + UMFMod.GetModVersion().ToString(), true);
+			Logger.Log("Softcore v" + Info.Mod.Version);
 		}
-	}
+    }
 }

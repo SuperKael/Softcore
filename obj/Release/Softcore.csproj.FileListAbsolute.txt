@@ -5,3 +5,4 @@ C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Softcore\obj\Release\Softco
 C:\Users\kaelh\Documents\Modding\Roguelands\Release\ModInfo.txt
 C:\Users\kaelh\Documents\Modding\Roguelands\Release\Softcore.dll
 C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\obj\Release\Softcore.dll
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\obj\Release\Softcore.csprojAssemblyReference.cache

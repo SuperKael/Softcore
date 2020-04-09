@@ -2,12 +2,14 @@ using UnityEngine;
 using HarmonyLib;
 using System.Reflection;
 using System.Collections;
+using GadgetCore.API;
 
 namespace Softcore.Patches
 {
     [HarmonyPatch(typeof(GameScript))]
     [HarmonyPatch("Retry")]
-    static class Patch_GameScript_Retry
+    [HarmonyGadget("Softcore")]
+    public static class Patch_GameScript_Retry
     {
 #pragma warning disable CS0618 // Type or member is obsolete
         [HarmonyPrefix]

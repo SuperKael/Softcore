@@ -1,0 +1,10 @@
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\ModInfo.txt
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\Manifest.ini
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\Softcore.dll
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\GadgetCore.dll
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\DotNetZip.dll
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\GadgetCore.xml
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\obj\x86\Release\Softcore.csprojAssemblyReference.cache
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\obj\x86\Release\Softcore.csproj.CopyComplete
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\obj\x86\Release\Softcore.dll
+C:\Users\kaelh\Documents\Modding\Roguelands\Softcore\Release\0Harmony.dll

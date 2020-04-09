@@ -1,14 +1,17 @@
 using UnityEngine;
 using HarmonyLib;
+using GadgetCore.API;
 
 namespace Softcore.Patches
 {
     [HarmonyPatch(typeof(GameScript))]
     [HarmonyPatch("EraseCharacter")]
-    static class Patch_GameScript_EraseCharacter
+    [HarmonyGadget("Softcore")]
+    public static class Patch_GameScript_EraseCharacter
     {
         [HarmonyPrefix]
-        public static bool Prefix(GameScript __instance, int a)
+        [HarmonyPriority(Priority.Low)]
+        public static bool Prefix(int a)
         {
             MonoBehaviour.print("EraseCharacter() (Patched)");
             PreviewLabs.PlayerPrefs.SetInt(a + "hp", 1);
